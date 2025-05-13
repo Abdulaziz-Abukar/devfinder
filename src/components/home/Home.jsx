@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { mockUser } from "../../data/mockUser";
+import { ProfileCard } from "../profilecard/ProfileCard";
 import CatsbyFixed from "../../assets/CatsbyFixed.png";
 import styles from "../../styles/componentstyles/Home.module.css";
 
@@ -38,23 +39,7 @@ export function Home() {
           <input type="submit" value="Search" />
         </form>
       </section>
-      <section>
-        {userData && (
-          <div>
-            <h2>{userData.login}</h2>
-            <img src={userData.avatar_url} />
-            <p>{userData.name}</p>
-            <p>{userData.bio}</p>
-            <p>{userData.location}</p>
-            <p>{userData.public_repos}</p>
-            <p>{userData.followers}</p>
-            <p>{userData.following}</p>
-            <p>{userData.blog}</p>
-            <p>{userData.html_url}</p>
-            <p>{userData.created_at}</p>
-          </div>
-        )}
-      </section>
+      <ProfileCard data={userData} />
       <img
         src={CatsbyFixed}
         alt="Image of Catsby being happy"

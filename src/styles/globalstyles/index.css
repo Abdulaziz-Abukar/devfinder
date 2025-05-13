@@ -1,0 +1,32 @@
+:root {
+  /* === Backgrounds === */
+  --color-bg: #0f2433; /* Main body background */
+  --color-header-bg: #0b1b28; /* Header background */
+  --color-card-bg: #1a344a; /* Card or section background */
+
+  /* === Text === */
+  --color-text: #eaf6ff; /* Main text */
+  --color-text-muted: #b0bec5; /* Secondary text */
+
+  /* === Accent & Highlights === */
+  --color-accent: #00f0ff; /* Cyan glow accent */
+  --color-accent-hover: #00bbd6; /* Hover state for accent */
+  --color-border: #214d63; /* Used for soft separators */
+
+  /* === Focus & Alerts === */
+  --color-focus-outline: #b0bec5;
+  --color-error: #ff4c4c;
+
+  /* === Fonts === */
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --font-footer: "Fira Code", monospace;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}

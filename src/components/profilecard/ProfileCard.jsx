@@ -43,9 +43,9 @@ export function ProfileCard({ data }) {
             <InfoRow label="Public Repos" value={public_repos} />
             <InfoRow label="Bio" value={bio} />
           </div>
-          <div>
+          {/* <div>
             <p>PINNED FOR FUTURE REPOS</p>
-          </div>
+          </div> */}
         </div>
       </div>
 

@@ -2,6 +2,7 @@
   "name": "devfinder",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://abdulaziz-abukar.github.io/devfinder",
   "type": "module",
   "scripts": {
     "dev": "vite",

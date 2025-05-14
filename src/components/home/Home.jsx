@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ProfileCard } from "../profilecard/ProfileCard";
 import { getUser } from "../../api/getUser";
-import CatsbyFixed from "../../assets/CatsbyFixed.png";
+// import CatsbyFixed from "../../assets/CatsbyFixed.png";
 import styles from "../../styles/componentstyles/Home.module.css";
 
 export function Home() {
@@ -56,11 +56,6 @@ export function Home() {
       {isLoading && <p className={styles.status}>Loading...</p>}
       {error && <p className={styles.error}>{error}</p>}
       {!isLoading && !error && userData && <ProfileCard data={userData} />}
-      <img
-        src={CatsbyFixed}
-        alt="Image of Catsby being happy"
-        className={styles.catsbyImg}
-      />
     </main>
   );
 }

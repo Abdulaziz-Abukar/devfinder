@@ -58,13 +58,6 @@ form input[type="submit"]:hover {
   background-color: var(--color-accent-hover);
 }
 
-.catsbyImg {
-  width: 200px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
-
 .status {
   color: var(--color-accent);
   text-align: center;

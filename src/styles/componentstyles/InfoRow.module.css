@@ -22,3 +22,15 @@
   word-break: break-word;
   font-family: var(--font-body);
 }
+
+.value a {
+  color: var(--color-accent);
+  text-decoration: none;
+  word-break: break-all;
+  transition: color 0.3s ease;
+}
+
+.value a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}

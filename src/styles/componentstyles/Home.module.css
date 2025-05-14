@@ -64,3 +64,17 @@ form input[type="submit"]:hover {
   bottom: 0;
   right: 0;
 }
+
+.status {
+  color: var(--color-accent);
+  text-align: center;
+  font-family: var(--font-footer);
+  margin: 1rem 0;
+}
+
+.error {
+  color: var(--color-error);
+  text-align: center;
+  font-weight: bold;
+  margin: 1rem 0;
+}

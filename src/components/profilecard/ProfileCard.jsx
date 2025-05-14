@@ -28,10 +28,30 @@ export function ProfileCard({ data }) {
             <h2>{login}</h2>
             <h3>{name}</h3>
             <InfoRow label="Location" value={location} />
-            <InfoRow label="Blog" value={blog} />
+            <InfoRow
+              label="Blog"
+              value={
+                blog && blog.trim() !== "" ? (
+                  <a
+                    href={blog.startsWith("http") ? blog : `https://${blog}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {
+                      new URL(
+                        blog.startsWith("http") ? blog : `https://${blog}`
+                      ).hostname
+                    }
+                  </a>
+                ) : (
+                  "N/A"
+                )
+              }
+            />
+
             <InfoRow
               label="GitHub"
-              value={<a href={html_url}>View Profile</a>}
+              value={<a href={html_url}> View Profile</a>}
             />
           </div>
         </div>

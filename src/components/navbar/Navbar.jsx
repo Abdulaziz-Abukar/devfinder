@@ -1,12 +1,13 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
+import { ThemeToggle } from "../themeToggle/ThemeToggle";
 import styles from "../../styles/componentstyles/Navbar.module.css";
-import Catsby from "../../assets/Catsby.png";
+import Mascot from "../../assets/Catsby.png";
+
 export function Navbar() {
   return (
     <header className={styles.headerWrapper}>
-      <img src={Catsby} alt="Image of Catsby, the mascot" />
-      <nav className={styles.navBar}>
+      <img src={Mascot} alt="devFinder mascot" />
+      <div className={styles.navBar}>
         <ul className={styles.listContainer}>
           <li className={styles.listItem}>
             <NavLink to="/">Home</NavLink>
@@ -15,7 +16,11 @@ export function Navbar() {
             <NavLink to="/about">About</NavLink>
           </li>
         </ul>
-      </nav>
+      </div>
+      <div className={styles.toggleWrapper}>
+        <span className={styles.themeLabel}>Theme</span>
+        <ThemeToggle />
+      </div>
     </header>
   );
 }

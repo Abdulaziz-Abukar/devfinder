@@ -92,3 +92,33 @@
   color: var(--color-text);
   font-weight: 500;
 }
+
+@media only screen and (max-width: 600px) {
+  .headerWrapper {
+    padding: 1rem 0;
+    gap: 0.5rem;
+  }
+  .headerWrapper img {
+    width: 65px;
+    margin-left: 1rem;
+  }
+
+  .listContainer {
+    font-size: 1rem;
+  }
+
+  .toggleWrapper {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 407px) {
+  .listContainer {
+    font-size: 0.8rem;
+  }
+
+  .toggleWrapper {
+    font-size: 0.8rem;
+  }
+}

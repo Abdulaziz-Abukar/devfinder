@@ -60,7 +60,7 @@ export function ProfileCard({ data }) {
           <div>
             <InfoRow label="Followers" value={followers} />
             <InfoRow label="Following" value={following} />
-            <InfoRow label="Public Repos" value={public_repos} />
+            <InfoRow label="Repos" value={public_repos} />
             <InfoRow label="Bio" value={bio} />
           </div>
           {/* <div>

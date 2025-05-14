@@ -9,3 +9,14 @@
   bottom: 0;
   right: 0;
 }
+
+@media only screen and (max-width: 1024px) {
+  .catsbyImg {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .catsbyImg {
+    display: none;
+  }
+}

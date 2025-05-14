@@ -19,3 +19,14 @@
 .footer a:hover {
   color: var(--color-accent-hover);
 }
+
+@media only screen and (max-width: 1024px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 0.7rem;
+  }
+}

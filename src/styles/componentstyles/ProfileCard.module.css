@@ -62,3 +62,26 @@
   color: var(--color-text-muted);
   font-family: var(--font-footer);
 }
+
+@media only screen and (max-width: 768px) {
+  .profileCard {
+    max-width: 650px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profileCard {
+    max-width: 350px;
+  }
+
+  .profileLeft h2 {
+    font-size: 1.2rem;
+  }
+  .profileLeft h3 {
+    font-size: 1rem;
+  }
+
+  .joinDate {
+    font-size: 0.7rem;
+  }
+}

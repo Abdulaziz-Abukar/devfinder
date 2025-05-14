@@ -10,10 +10,14 @@ export function Navbar() {
       <div className={styles.navBar}>
         <ul className={styles.listContainer}>
           <li className={styles.listItem}>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" relative="path">
+              Home
+            </NavLink>
           </li>
           <li className={styles.listItem}>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about" relative="path">
+              About
+            </NavLink>
           </li>
         </ul>
       </div>

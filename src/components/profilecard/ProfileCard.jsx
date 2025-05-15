@@ -51,7 +51,12 @@ export function ProfileCard({ data }) {
 
             <InfoRow
               label="GitHub"
-              value={<a href={html_url}> View Profile</a>}
+              value={
+                <a href={html_url} target="_blank">
+                  {" "}
+                  View Profile
+                </a>
+              }
             />
           </div>
         </div>

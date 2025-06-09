@@ -15,7 +15,7 @@ export function Footer() {
           GitHub
         </a>{" "}
         <a
-          href="https://abdulaziz-abukar.github.io/"
+          href="https://dev-abdulaziz-abukars-projects.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >

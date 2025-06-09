@@ -47,7 +47,7 @@ export function About() {
         If you'd like to know more about me and explore my other work, feel free
         to visit my{" "}
         <a
-          href="https://abdulaziz-abukar.github.io/"
+          href="https://dev-abdulaziz-abukars-projects.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >

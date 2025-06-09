@@ -45,6 +45,6 @@ A sleek, themeable GitHub profile lookup app built with React + Vite. Easily sea
 
 ## 📸 Live Demo
 
-> 🔗 [https://abdulaziz-abukar.github.io/devFinder](https://abdulaziz-abukar.github.io/devFinder)
+> 🔗 [https://abdulaziz-abukar.github.io/devFinder](https://abdulaziz-abukar.github.io/devfinder)
 
 ---
